@@ -81,9 +81,6 @@ export default function AttendanceForm({ events }: Props) {
         <p className="mt-3 text-body-md text-on-secondary-fixed-variant">
           Seu registro em <strong className="font-semibold">{confirmed.name}</strong> foi confirmado.
         </p>
-        <p className="mt-2 text-label-md text-on-secondary-fixed-variant/80">
-          Não esqueça de assinar a lista impressa no local.
-        </p>
       </section>
     )
   }
