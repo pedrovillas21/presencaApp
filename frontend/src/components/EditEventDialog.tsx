@@ -37,6 +37,7 @@ export default function EditEventDialog({
   }
 
   function openEditor() {
+    if (!event.is_open) return
     reset()
     setOpen(true)
   }
@@ -53,6 +54,11 @@ export default function EditEventDialog({
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     setError(null)
+
+    if (!event.is_open) {
+      setError('Reabra o evento antes de alterar seus dados.')
+      return
+    }
 
     if (name.trim().length < 3) {
       setError('O nome do evento precisa ter ao menos 3 caracteres.')
@@ -97,8 +103,9 @@ export default function EditEventDialog({
         type="button"
         onClick={openEditor}
         aria-label={`Editar ${event.name}`}
-        title="Editar evento"
-        className="btn-ghost btn-sm shrink-0 px-4 text-primary"
+        title={event.is_open ? 'Editar evento' : 'Reabra o evento para poder editá-lo'}
+        disabled={!event.is_open}
+        className="btn-ghost btn-sm shrink-0 px-4 text-primary disabled:cursor-not-allowed disabled:opacity-45"
       >
         <Icon name="edit" />
         <span className="hidden sm:inline">Editar</span>

@@ -12,6 +12,7 @@ import type { EventWithCount } from '@/lib/types'
 export default function EventCard({ event }: { event: EventWithCount }) {
   const router = useRouter()
   const [busy, setBusy] = useState(false)
+  const [deleting, setDeleting] = useState(false)
   const [copied, setCopied] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -44,6 +45,25 @@ export default function EventCard({ event }: { event: EventWithCount }) {
     setTimeout(() => setCopied(false), 2000)
   }
 
+  async function deleteEvent() {
+    const ok = window.confirm(
+      `Excluir o evento “${event.name}”? Todos os ${total} participantes registrados também serão removidos. Essa ação não pode ser desfeita.`
+    )
+    if (!ok) return
+
+    setDeleting(true)
+    setError(null)
+    const { error } = await createClient().from('events').delete().eq('id', event.id)
+    setDeleting(false)
+
+    if (error) {
+      setError(`Não foi possível excluir o evento: ${error.message}`)
+      return
+    }
+
+    router.refresh()
+  }
+
   return (
     <article
       className={`flex h-full flex-col rounded-card border border-border bg-surface p-6 transition-shadow hover:shadow-lifted ${
@@ -65,7 +85,7 @@ export default function EventCard({ event }: { event: EventWithCount }) {
           aria-checked={event.is_open}
           aria-label={event.is_open ? 'Fechar preenchimento' : 'Abrir preenchimento'}
           onClick={toggleOpen}
-          disabled={busy}
+          disabled={busy || deleting}
           className="flex shrink-0 items-center gap-3 disabled:opacity-60"
         >
           <span
@@ -128,6 +148,16 @@ export default function EventCard({ event }: { event: EventWithCount }) {
           className="btn-ghost btn-sm w-14 shrink-0 px-0 text-primary"
         >
           <Icon name={copied ? 'check' : 'link'} />
+        </button>
+        <button
+          type="button"
+          onClick={deleteEvent}
+          disabled={busy || deleting}
+          aria-label={`Excluir ${event.name}`}
+          title="Excluir evento"
+          className="btn-ghost btn-sm w-14 shrink-0 px-0 text-error hover:bg-error-container hover:text-on-error-container disabled:opacity-50"
+        >
+          <Icon name={deleting ? 'progress_activity' : 'delete'} className={deleting ? 'animate-spin' : ''} />
         </button>
       </div>
     </article>

@@ -154,6 +154,28 @@ drop policy if exists events_admin_all on public.events;
 create policy events_admin_all on public.events
   for all to authenticated using (public.is_admin()) with check (public.is_admin());
 
+-- Evento fechado é um registro histórico: só pode ser reaberto, sem alterações.
+-- A trava no banco impede que uma chamada direta à API contorne a interface.
+create or replace function public.prevent_closed_event_edits()
+returns trigger language plpgsql as $$
+begin
+  if not old.is_open
+     and (
+       new.is_open is not true
+       or (to_jsonb(new) - 'is_open') is distinct from (to_jsonb(old) - 'is_open')
+     ) then
+    raise exception 'Evento fechado não pode ser editado. Reabra-o antes de alterar seus dados.'
+      using errcode = 'P0001';
+  end if;
+
+  return new;
+end $$;
+
+drop trigger if exists trg_prevent_closed_event_edits on public.events;
+create trigger trg_prevent_closed_event_edits
+before update on public.events
+for each row execute function public.prevent_closed_event_edits();
+
 -- helper security definer: evita depender de RLS aninhada dentro da policy
 create or replace function public.is_event_open(p_event_id uuid)
 returns boolean language sql stable security definer set search_path = public as $$
