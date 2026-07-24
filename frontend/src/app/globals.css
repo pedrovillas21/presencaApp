@@ -1,62 +1,61 @@
 @import "tailwindcss";
 
 /*
- * Design system "Vibrant Presence" — ver os DESIGN.md na pasta exemplo.
+ * Identidade CREFITO 11: turquesa, coral e superfícies claras.
  * Os tokens abaixo são a fonte da verdade: componentes nunca escrevem hex.
  */
 @theme {
   /* ---------- Superfícies e neutros ---------- */
-  --color-background: #f7f9fb;
+  --color-background: #f5fbfa;
   --color-surface: #ffffff;
-  --color-surface-bright: #f7f9fb;
+  --color-surface-bright: #f5fbfa;
   --color-surface-container-lowest: #ffffff;
-  --color-surface-container-low: #f2f4f6;
-  --color-surface-container: #eceef0;
-  --color-surface-container-high: #e6e8ea;
-  --color-surface-container-highest: #e0e3e5;
-  --color-surface-variant: #e0e3e5;
-  --color-on-surface: #191c1e;
-  --color-on-surface-variant: #464554;
-  --color-outline: #777586;
-  --color-outline-variant: #c7c4d7;
-  --color-muted: #64748b;
-  --color-border: #e2e8f0;
-  /* Fundo da navegação lateral — único ponto escuro do sistema. */
-  --color-shell: #0f172a;
+  --color-surface-container-low: #edf8f6;
+  --color-surface-container: #e3f3f0;
+  --color-surface-container-high: #d7ece7;
+  --color-surface-container-highest: #c8e4de;
+  --color-surface-variant: #dcece9;
+  --color-on-surface: #143b37;
+  --color-on-surface-variant: #38615b;
+  --color-outline: #6a908a;
+  --color-outline-variant: #b9d5cf;
+  --color-muted: #5c7d78;
+  --color-border: #d7e9e5;
+  --color-shell: #075f58;
 
-  /* ---------- Primária (índigo) ---------- */
-  --color-primary: #2a14b4;
+  /* ---------- Primária (turquesa CREFITO) ---------- */
+  --color-primary: #078e80;
   --color-on-primary: #ffffff;
-  --color-primary-container: #4338ca;
-  --color-on-primary-container: #c1beff;
-  --color-primary-fixed: #e3dfff;
-  --color-primary-fixed-dim: #c3c0ff;
-  --color-on-primary-fixed: #100069;
-  --color-on-primary-fixed-variant: #372abf;
+  --color-primary-container: #18ae9d;
+  --color-on-primary-container: #ffffff;
+  --color-primary-fixed: #d3f6ef;
+  --color-primary-fixed-dim: #93e1d3;
+  --color-on-primary-fixed: #064d46;
+  --color-on-primary-fixed-variant: #087e72;
 
-  /* ---------- Secundária (lima) ---------- */
-  --color-secondary: #4d661c;
+  /* ---------- Secundária (coral CREFITO) ---------- */
+  --color-secondary: #ef5b5c;
   --color-on-secondary: #ffffff;
-  --color-secondary-container: #ceee93;
-  --color-on-secondary-container: #536d22;
-  --color-secondary-fixed: #ceee93;
-  --color-secondary-fixed-dim: #b3d17a;
-  --color-on-secondary-fixed: #131f00;
-  --color-on-secondary-fixed-variant: #364e03;
+  --color-secondary-container: #ffe3e0;
+  --color-on-secondary-container: #8f292d;
+  --color-secondary-fixed: #ffd2ce;
+  --color-secondary-fixed-dim: #ffaca4;
+  --color-on-secondary-fixed: #612126;
+  --color-on-secondary-fixed-variant: #a8393d;
 
   /* ---------- Terciária e erro ---------- */
-  --color-tertiary: #323a4f;
-  --color-tertiary-container: #495167;
+  --color-tertiary: #315e89;
+  --color-tertiary-container: #d6e7f7;
   --color-on-tertiary: #ffffff;
-  --color-on-tertiary-container: #bcc4de;
-  --color-error: #f43f5e;
+  --color-on-tertiary-container: #274d71;
+  --color-error: #cb3f4f;
   --color-on-error: #ffffff;
   --color-error-container: #ffdad6;
   --color-on-error-container: #93000a;
 
   /* ---------- Tipografia ---------- */
-  --font-display: var(--font-syne), "Syne", ui-sans-serif, sans-serif;
-  --font-sans: var(--font-dm-sans), "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-open-sans), "Open Sans", ui-sans-serif, sans-serif;
+  --font-sans: var(--font-open-sans), "Open Sans", ui-sans-serif, system-ui, sans-serif;
 
   --text-headline-xl: 48px;
   --text-headline-xl--line-height: 1.1;
@@ -95,11 +94,11 @@
   --text-button-lg--font-weight: 700;
 
   /* ---------- Forma ---------- */
-  --radius-card: 24px;
+  --radius-card: 18px;
 
   /* ---------- Elevação ---------- */
-  --shadow-ambient: 0 8px 32px -8px rgb(42 20 180 / 0.15), 0 4px 16px -4px rgb(42 20 180 / 0.1);
-  --shadow-lifted: 0 8px 16px -4px rgb(67 56 202 / 0.15);
+  --shadow-ambient: 0 12px 32px -12px rgb(7 142 128 / 0.22), 0 4px 14px -6px rgb(7 95 88 / 0.12);
+  --shadow-lifted: 0 8px 18px -6px rgb(7 142 128 / 0.32);
 }
 
 body {

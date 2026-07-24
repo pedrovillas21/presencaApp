@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import BrandLogo from '@/components/BrandLogo'
 import Icon from '@/components/Icon'
 import { createClient } from '@/lib/supabase/client'
 
@@ -32,14 +33,13 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="relative flex w-full flex-1 items-center justify-center overflow-hidden bg-gradient-to-br from-primary-container to-primary p-4 py-12">
+    <main className="relative flex w-full flex-1 items-center justify-center overflow-hidden bg-gradient-to-br from-shell via-primary to-primary-container p-4 py-12">
       <div className="pointer-events-none absolute -left-32 -top-32 size-96 rounded-full bg-white/5 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-0 size-80 rounded-full bg-secondary-container/20 blur-3xl" />
 
       <div className="relative z-10 w-full max-w-md">
-        <div className="mb-8 flex items-center justify-center gap-3">
-          <Icon name="event_available" filled className="text-[32px] text-secondary-fixed" />
-          <span className="font-display text-headline-md text-white">Presença</span>
+        <div className="mb-8 flex justify-center">
+          <BrandLogo className="max-w-[220px]" priority />
         </div>
 
         <div className="rounded-card border border-border bg-surface p-8 shadow-ambient md:p-10">

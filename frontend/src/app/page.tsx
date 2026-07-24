@@ -1,4 +1,5 @@
 import AttendanceForm from '@/components/AttendanceForm'
+import BrandLogo from '@/components/BrandLogo'
 import Icon from '@/components/Icon'
 import { createClient } from '@/lib/supabase/server'
 import { formatEventDate } from '@/lib/datetime'
@@ -67,15 +68,15 @@ function BrandPanel({ event, openCount }: { event: PublicEvent | null; openCount
 
   // Sem h-full: o stretch do flex já estica o painel até a altura da linha.
   return (
-    <section className="relative z-0 flex shrink-0 flex-col justify-between overflow-hidden bg-gradient-to-br from-primary-container to-primary p-8 lg:w-1/2 lg:p-16">
+    <section className="relative z-0 flex shrink-0 flex-col justify-between overflow-hidden bg-gradient-to-br from-shell via-primary to-primary-container p-8 lg:w-1/2 lg:p-16">
       {/* Formas difusas: profundidade sem imagem, conforme o exemplo. */}
       <div className="pointer-events-none absolute -left-32 -top-32 size-96 rounded-full bg-white/5 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-1/4 size-80 rounded-full bg-secondary-container/20 blur-3xl" />
 
       <div className="relative z-10 flex flex-grow flex-col justify-center gap-12 lg:gap-20">
-        <div className="flex items-center gap-3">
-          <Icon name="event_available" filled className="text-[36px] text-secondary-fixed" />
-          <h1 className="font-display text-headline-md tracking-tight text-white">Presença</h1>
+        <div className="w-48 sm:w-56">
+          <BrandLogo priority />
+          <p className="mt-2 text-label-sm uppercase tracking-[0.18em] text-white/70">Lista de presença</p>
         </div>
 
         <div className="space-y-6">

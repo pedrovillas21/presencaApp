@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
+import BrandLogo from '@/components/BrandLogo'
 import Icon from '@/components/Icon'
 import LogoutButton from '@/components/LogoutButton'
 
@@ -55,7 +56,7 @@ export default function AdminShell({
               <Icon name="menu" />
             </button>
             <h2 className="truncate font-display text-headline-md text-primary">
-              Controle de Presença
+              Gestão de eventos
             </h2>
           </div>
 
@@ -84,14 +85,9 @@ function Sidebar({
 }) {
   return (
     <nav className={`flex flex-col bg-shell p-6 shadow-xl ${className}`}>
-      <div className="flex items-center gap-3">
-        <span className="flex size-10 items-center justify-center rounded-full bg-secondary-fixed">
-          <Icon name="event_available" filled className="text-on-secondary-fixed" />
-        </span>
-        <div className="min-w-0">
-          <h1 className="font-display text-headline-sm text-white">Presença</h1>
-          <p className="text-label-sm text-surface-variant/80">Painel interno</p>
-        </div>
+      <div>
+        <BrandLogo className="max-w-[175px]" priority />
+        <p className="mt-2 text-label-sm uppercase tracking-[0.14em] text-white/65">Painel interno</p>
       </div>
 
       <div className="mt-8 flex flex-1 flex-col gap-2">

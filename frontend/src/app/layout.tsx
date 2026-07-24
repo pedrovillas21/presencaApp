@@ -1,25 +1,22 @@
 import type { Metadata } from 'next'
-import { DM_Sans, Syne } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 import './globals.css'
 
-// Syne carrega os títulos; DM Sans, todo o resto (ver DESIGN.md dos exemplos).
-const syne = Syne({
+const openSans = Open_Sans({
   subsets: ['latin'],
-  weight: ['700', '800'],
-  variable: '--font-syne',
-  display: 'swap',
-})
-
-const dmSans = DM_Sans({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-dm-sans',
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-open-sans',
   display: 'swap',
 })
 
 export const metadata: Metadata = {
-  title: 'Registro de presença',
-  description: 'Registre sua presença no evento',
+  title: 'CREFITO 11 | Lista de presença',
+  description: 'Lista de presença dos eventos do CREFITO 11',
+  icons: {
+    icon: [{ url: '/icon.png', type: 'image/png' }],
+    shortcut: ['/icon.png'],
+    apple: [{ url: '/icon.png', type: 'image/png' }],
+  },
 }
 
 export default function RootLayout({
@@ -28,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className={`h-full antialiased ${syne.variable} ${dmSans.variable}`}>
+    <html lang="pt-BR" className={`h-full antialiased ${openSans.variable}`}>
       <head>
         {/*
           Material Symbols é fonte de ícones variável — next/font não a cobre.

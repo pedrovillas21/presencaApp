@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import EditEventDialog from '@/components/EditEventDialog'
 import Icon from '@/components/Icon'
 import { createClient } from '@/lib/supabase/client'
 import { formatEventDate } from '@/lib/datetime'
@@ -119,6 +120,7 @@ export default function EventCard({ event }: { event: EventWithCount }) {
         >
           Ver lista completa
         </Link>
+        <EditEventDialog event={event} attendeeCount={total} />
         <button
           type="button"
           onClick={copyLink}
