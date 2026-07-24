@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+/*
+ * Design system "Vibrant Presence" — ver os DESIGN.md na pasta exemplo.
+ * Os tokens abaixo são a fonte da verdade: componentes nunca escrevem hex.
+ */
+@theme {
+  /* ---------- Superfícies e neutros ---------- */
+  --color-background: #f7f9fb;
+  --color-surface: #ffffff;
+  --color-surface-bright: #f7f9fb;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f4f6;
+  --color-surface-container: #eceef0;
+  --color-surface-container-high: #e6e8ea;
+  --color-surface-container-highest: #e0e3e5;
+  --color-surface-variant: #e0e3e5;
+  --color-on-surface: #191c1e;
+  --color-on-surface-variant: #464554;
+  --color-outline: #777586;
+  --color-outline-variant: #c7c4d7;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  /* Fundo da navegação lateral — único ponto escuro do sistema. */
+  --color-shell: #0f172a;
+
+  /* ---------- Primária (índigo) ---------- */
+  --color-primary: #2a14b4;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #4338ca;
+  --color-on-primary-container: #c1beff;
+  --color-primary-fixed: #e3dfff;
+  --color-primary-fixed-dim: #c3c0ff;
+  --color-on-primary-fixed: #100069;
+  --color-on-primary-fixed-variant: #372abf;
+
+  /* ---------- Secundária (lima) ---------- */
+  --color-secondary: #4d661c;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #ceee93;
+  --color-on-secondary-container: #536d22;
+  --color-secondary-fixed: #ceee93;
+  --color-secondary-fixed-dim: #b3d17a;
+  --color-on-secondary-fixed: #131f00;
+  --color-on-secondary-fixed-variant: #364e03;
+
+  /* ---------- Terciária e erro ---------- */
+  --color-tertiary: #323a4f;
+  --color-tertiary-container: #495167;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #bcc4de;
+  --color-error: #f43f5e;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  /* ---------- Tipografia ---------- */
+  --font-display: var(--font-syne), "Syne", ui-sans-serif, sans-serif;
+  --font-sans: var(--font-dm-sans), "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --text-headline-xl: 48px;
+  --text-headline-xl--line-height: 1.1;
+  --text-headline-xl--letter-spacing: -0.02em;
+  --text-headline-xl--font-weight: 700;
+
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 1.2;
+  --text-headline-lg--font-weight: 700;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 1.3;
+  --text-headline-md--font-weight: 700;
+
+  --text-headline-sm: 20px;
+  --text-headline-sm--line-height: 1.3;
+  --text-headline-sm--font-weight: 700;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 1.6;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 1.5;
+
+  --text-label-md: 14px;
+  --text-label-md--line-height: 1.4;
+  --text-label-md--font-weight: 500;
+
+  --text-label-sm: 13px;
+  --text-label-sm--line-height: 1.4;
+  --text-label-sm--letter-spacing: 0.05em;
+  --text-label-sm--font-weight: 600;
+
+  --text-button-lg: 16px;
+  --text-button-lg--line-height: 1;
+  --text-button-lg--font-weight: 700;
+
+  /* ---------- Forma ---------- */
+  --radius-card: 24px;
+
+  /* ---------- Elevação ---------- */
+  --shadow-ambient: 0 8px 32px -8px rgb(42 20 180 / 0.15), 0 4px 16px -4px rgb(42 20 180 / 0.1);
+  --shadow-lifted: 0 8px 16px -4px rgb(67 56 202 / 0.15);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+}
+
+/* Ícones Material Symbols (carregados no layout raiz). */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  /* O <span> só vira ícone depois que a fonte chega — evita o texto cru piscar. */
+  font-family: "Material Symbols Outlined", monospace;
+  font-size: 1.25rem;
+  line-height: 1;
+  user-select: none;
+}
+
+.material-symbols-outlined.fill {
+  font-variation-settings: "FILL" 1;
+}
+
+/* ------------------------------------------------------------------ */
+/* Componentes compartilhados                                          */
+/* ------------------------------------------------------------------ */
+
+/* Campo pílula de 56px (h-14) — padrão do sistema para input, select e textarea. */
+@utility field {
+  @apply h-14 w-full rounded-full border-2 border-border bg-surface px-6 text-body-md
+         text-on-surface transition-colors outline-none
+         placeholder:text-muted/60 hover:border-outline-variant
+         focus:border-primary
+         disabled:cursor-not-allowed disabled:bg-surface-container-low disabled:hover:border-border;
+}
+
+/* Variante com ícone à esquerda (o ícone ocupa os 48px iniciais). */
+@utility field-icon {
+  @apply pl-12;
+}
+
+@utility btn {
+  @apply inline-flex h-14 items-center justify-center gap-2 rounded-full px-8
+         font-display text-button-lg transition-all
+         disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+@utility btn-primary {
+  @apply btn bg-primary text-on-primary shadow-lifted
+         hover:bg-primary-container active:scale-[0.98] disabled:hover:bg-primary;
+}
+
+@utility btn-secondary {
+  @apply btn border-2 border-primary bg-surface text-primary
+         hover:bg-primary-fixed disabled:hover:bg-surface;
+}
+
+/* Ação neutra dentro de cards e barras — não compete com a primária. */
+@utility btn-ghost {
+  @apply btn border border-border bg-surface font-sans text-label-md text-on-surface-variant
+         hover:bg-surface-container-low disabled:hover:bg-surface;
+}
+
+/* Botões compactos (barras de ferramentas, ações de card). */
+@utility btn-sm {
+  @apply h-12 px-6;
+}
+
+/* Card padrão: branco, raio 24px, borda fina. */
+@utility card {
+  @apply rounded-card border border-border bg-surface;
+}
+
+@utility label-field {
+  @apply mb-2 block text-label-md text-on-surface-variant;
+}
+
+/* Faixas de mensagem — mesma silhueta para erro, aviso e sucesso. */
+@utility alert {
+  @apply rounded-card border p-4 text-label-md;
+}
+
+@utility alert-error {
+  @apply alert border-error/30 bg-error-container text-on-error-container;
+}
+
+@utility alert-success {
+  @apply alert border-secondary-fixed-dim bg-secondary-container/40 text-on-secondary-fixed-variant;
+}
+
+@utility alert-neutral {
+  @apply alert border-border bg-surface text-muted;
+}
+
+/* Chip pílula para status e metadados. */
+@utility chip {
+  @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-label-sm;
+}

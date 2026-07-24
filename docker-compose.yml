@@ -1,0 +1,30 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./backend/.env
+    environment:
+      TZ: America/Sao_Paulo
+    restart: unless-stopped
+
+  # Fora do `docker compose up` padrão.
+  # Sobe a stack inteira local com: docker compose --profile fullstack up --build
+  # As NEXT_PUBLIC_* são inlined no bundle, então entram como build args —
+  # o compose as lê de um .env na raiz do projeto (veja o README).
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8080}
+    profiles: ["fullstack"]
+    ports:
+      - "3000:3000"
+    environment:
+      TZ: America/Sao_Paulo
+    depends_on:
+      - backend
+    restart: unless-stopped
