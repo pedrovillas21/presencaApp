@@ -24,7 +24,7 @@ export default async function EventPage({ params }: { params: Promise<{ id: stri
 
   const { data: attendees, error } = await supabase
     .from('attendees')
-    .select('id, full_name, cpf, email, phone, created_at')
+    .select('id, full_name, cpf, email, phone, attendance_location, signature_data, created_at')
     .eq('event_id', id)
     .order('created_at', { ascending: true })
     .returns<AttendeeRow[]>()

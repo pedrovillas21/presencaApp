@@ -1,4 +1,4 @@
-import AttendanceForm from '@/components/AttendanceForm'
+import AttendanceWizard from '@/components/AttendanceWizard'
 import BrandLogo from '@/components/BrandLogo'
 import Icon from '@/components/Icon'
 import { createClient } from '@/lib/supabase/server'
@@ -55,7 +55,7 @@ export default async function Home() {
               </p>
             </div>
           ) : (
-            <AttendanceForm events={events} />
+            <AttendanceWizard events={events} />
           )}
         </div>
       </section>

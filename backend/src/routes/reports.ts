@@ -51,7 +51,7 @@ router.get('/events/:eventId/report.pdf', requireAuth, async (req, res) => {
     error: attendeesError,
   } = await req.supabase
     .from('attendees')
-    .select('full_name, cpf, email, phone, created_at', { count: 'exact' })
+    .select('full_name, cpf, email, phone, attendance_location, signature_data, created_at', { count: 'exact' })
     .eq('event_id', eventId)
     .order('full_name')
     .limit(REPORT_ROW_LIMIT)

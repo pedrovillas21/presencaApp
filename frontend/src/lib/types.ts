@@ -22,5 +22,7 @@ export type AttendeeRow = {
   cpf: string
   email: string
   phone: string | null
+  attendance_location: string
+  signature_data: string | null
   created_at: string
 }

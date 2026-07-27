@@ -1,0 +1,4591 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "env.ts",
+      "file_type": "code",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L1",
+      "id": "backend_src_env_ts",
+      "community": 6,
+      "norm_label": "env.ts"
+    },
+    {
+      "label": "schema",
+      "file_type": "code",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L3",
+      "id": "src_env_schema",
+      "community": 6,
+      "norm_label": "schema"
+    },
+    {
+      "label": "parsed",
+      "file_type": "code",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L10",
+      "id": "src_env_parsed",
+      "community": 6,
+      "norm_label": "parsed"
+    },
+    {
+      "label": "issues",
+      "file_type": "code",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L13",
+      "id": "src_env_issues",
+      "community": 6,
+      "norm_label": "issues"
+    },
+    {
+      "label": "env",
+      "file_type": "code",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L20",
+      "id": "src_env_env",
+      "community": 6,
+      "norm_label": "env"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "backend/src/index.ts",
+      "source_location": "L1",
+      "id": "backend_src_index_ts",
+      "community": 6,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "backend/src/index.ts",
+      "source_location": "L6",
+      "id": "src_index_app",
+      "community": 6,
+      "norm_label": "app"
+    },
+    {
+      "label": "origin()",
+      "file_type": "code",
+      "source_file": "backend/src/index.ts",
+      "source_location": "L12",
+      "id": "src_index_origin",
+      "community": 6,
+      "norm_label": "origin()"
+    },
+    {
+      "label": "datetime.ts",
+      "file_type": "code",
+      "source_file": "backend/src/lib/datetime.ts",
+      "source_location": "L1",
+      "id": "backend_src_lib_datetime_ts",
+      "community": 0,
+      "norm_label": "datetime.ts"
+    },
+    {
+      "label": "formatDateTime()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/datetime.ts",
+      "source_location": "L4",
+      "id": "lib_datetime_formatdatetime",
+      "community": 0,
+      "norm_label": "formatdatetime()"
+    },
+    {
+      "label": "formatDate()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/datetime.ts",
+      "source_location": "L11",
+      "id": "lib_datetime_formatdate",
+      "community": 0,
+      "norm_label": "formatdate()"
+    },
+    {
+      "label": "formatDateOnly()",
+      "file_type": "code",
+      "source_file": "backend/src/lib/datetime.ts",
+      "source_location": "L22",
+      "id": "lib_datetime_formatdateonly",
+      "community": 0,
+      "norm_label": "formatdateonly()"
+    },
+    {
+      "label": "todayIsoInTz()",
+      "file_type": "code",
+      "source_file": "backend/src/lib/datetime.ts",
+      "source_location": "L30",
+      "id": "lib_datetime_todayisointz",
+      "community": 0,
+      "norm_label": "todayisointz()"
+    },
+    {
+      "label": "format.ts",
+      "file_type": "code",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L1",
+      "id": "backend_src_lib_format_ts",
+      "community": 0,
+      "norm_label": "format.ts"
+    },
+    {
+      "label": "maskCpf()",
+      "file_type": "code",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L1",
+      "id": "lib_format_maskcpf",
+      "community": 0,
+      "norm_label": "maskcpf()"
+    },
+    {
+      "label": "maskPhone()",
+      "file_type": "code",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L7",
+      "id": "lib_format_maskphone",
+      "community": 0,
+      "norm_label": "maskphone()"
+    },
+    {
+      "label": "COMBINING_MARKS",
+      "file_type": "code",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L16",
+      "id": "lib_format_combining_marks",
+      "community": 0,
+      "norm_label": "combining_marks"
+    },
+    {
+      "label": "slugify()",
+      "file_type": "code",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L18",
+      "id": "lib_format_slugify",
+      "community": 0,
+      "norm_label": "slugify()"
+    },
+    {
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "backend/src/middleware/auth.ts",
+      "source_location": "L1",
+      "id": "backend_src_middleware_auth_ts",
+      "community": 6,
+      "norm_label": "auth.ts"
+    },
+    {
+      "label": "Request",
+      "file_type": "code",
+      "source_file": "backend/src/middleware/auth.ts",
+      "source_location": "L8",
+      "id": "middleware_auth_request",
+      "community": 6,
+      "norm_label": "request"
+    },
+    {
+      "label": "requireAuth()",
+      "file_type": "code",
+      "source_file": "backend/src/middleware/auth.ts",
+      "source_location": "L21",
+      "id": "middleware_auth_requireauth",
+      "community": 6,
+      "norm_label": "requireauth()"
+    },
+    {
+      "label": "attendanceReport.ts",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L1",
+      "id": "backend_src_pdf_attendancereport_ts",
+      "community": 0,
+      "norm_label": "attendancereport.ts"
+    },
+    {
+      "label": "EventRow",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L5",
+      "id": "pdf_attendancereport_eventrow",
+      "community": 0,
+      "norm_label": "eventrow"
+    },
+    {
+      "label": "AttendeeRow",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L12",
+      "id": "pdf_attendancereport_attendeerow",
+      "community": 0,
+      "norm_label": "attendeerow"
+    },
+    {
+      "label": "Doc",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L22",
+      "id": "pdf_attendancereport_doc",
+      "community": 0,
+      "norm_label": "doc"
+    },
+    {
+      "label": "COL",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L26",
+      "id": "pdf_attendancereport_col",
+      "community": 0,
+      "norm_label": "col"
+    },
+    {
+      "label": "HEADERS",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L27",
+      "id": "pdf_attendancereport_headers",
+      "community": 0,
+      "norm_label": "headers"
+    },
+    {
+      "label": "WIDTHS",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L28",
+      "id": "pdf_attendancereport_widths",
+      "community": 0,
+      "norm_label": "widths"
+    },
+    {
+      "label": "colX",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L39",
+      "id": "pdf_attendancereport_colx",
+      "community": 0,
+      "norm_label": "colx"
+    },
+    {
+      "label": "fitFontSize()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L46",
+      "id": "pdf_attendancereport_fitfontsize",
+      "community": 0,
+      "norm_label": "fitfontsize()"
+    },
+    {
+      "label": "hLine()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L52",
+      "id": "pdf_attendancereport_hline",
+      "community": 0,
+      "norm_label": "hline()"
+    },
+    {
+      "label": "vLines()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L56",
+      "id": "pdf_attendancereport_vlines",
+      "community": 0,
+      "norm_label": "vlines()"
+    },
+    {
+      "label": "drawReportHeader()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L63",
+      "id": "pdf_attendancereport_drawreportheader",
+      "community": 0,
+      "norm_label": "drawreportheader()"
+    },
+    {
+      "label": "drawTableHeader()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L98",
+      "id": "pdf_attendancereport_drawtableheader",
+      "community": 0,
+      "norm_label": "drawtableheader()"
+    },
+    {
+      "label": "drawParticipant()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L114",
+      "id": "pdf_attendancereport_drawparticipant",
+      "community": 0,
+      "norm_label": "drawparticipant()"
+    },
+    {
+      "label": "drawSignature()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L153",
+      "id": "pdf_attendancereport_drawsignature",
+      "community": 0,
+      "norm_label": "drawsignature()"
+    },
+    {
+      "label": "drawRow()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L176",
+      "id": "pdf_attendancereport_drawrow",
+      "community": 0,
+      "norm_label": "drawrow()"
+    },
+    {
+      "label": "drawFooters()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L204",
+      "id": "pdf_attendancereport_drawfooters",
+      "community": 0,
+      "norm_label": "drawfooters()"
+    },
+    {
+      "label": "buildAttendanceReport()",
+      "file_type": "code",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L226",
+      "id": "pdf_attendancereport_buildattendancereport",
+      "community": 0,
+      "norm_label": "buildattendancereport()"
+    },
+    {
+      "label": "reports.ts",
+      "file_type": "code",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L1",
+      "id": "backend_src_routes_reports_ts",
+      "community": 0,
+      "norm_label": "reports.ts"
+    },
+    {
+      "label": "router",
+      "file_type": "code",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L12",
+      "id": "routes_reports_router",
+      "community": 0,
+      "norm_label": "router"
+    },
+    {
+      "label": "paramsSchema",
+      "file_type": "code",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L13",
+      "id": "routes_reports_paramsschema",
+      "community": 0,
+      "norm_label": "paramsschema"
+    },
+    {
+      "label": "parsed",
+      "file_type": "code",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L25",
+      "id": "routes_reports_parsed",
+      "community": 0,
+      "norm_label": "parsed"
+    },
+    {
+      "label": "{ data: event, error: eventError }",
+      "file_type": "code",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L32",
+      "id": "routes_reports_data_event_error_eventerror",
+      "community": 0,
+      "norm_label": "{ data: event, error: eventerror }"
+    },
+    {
+      "label": "{\n    data: attendees,\n    count,\n    error: attendeesError,\n  }",
+      "file_type": "code",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L48",
+      "id": "routes_reports_data_attendees_count_error_attendeeserror",
+      "community": 0,
+      "norm_label": "{\n    data: attendees,\n    count,\n    error: attendeeserror,\n  }"
+    },
+    {
+      "label": "doc",
+      "file_type": "code",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L73",
+      "id": "routes_reports_doc",
+      "community": 0,
+      "norm_label": "doc"
+    },
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L1",
+      "id": "frontend_eslint_config_mjs",
+      "community": 7,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "__filename",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L5",
+      "id": "frontend_eslint_config_filename",
+      "community": 7,
+      "norm_label": "__filename"
+    },
+    {
+      "label": "__dirname",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L6",
+      "id": "frontend_eslint_config_dirname",
+      "community": 7,
+      "norm_label": "__dirname"
+    },
+    {
+      "label": "compat",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L8",
+      "id": "frontend_eslint_config_compat",
+      "community": 7,
+      "norm_label": "compat"
+    },
+    {
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L10",
+      "id": "frontend_eslint_config_eslintconfig",
+      "community": 7,
+      "norm_label": "eslintconfig"
+    },
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "frontend/next-env.d.ts",
+      "source_location": "L1",
+      "id": "frontend_next_env_d_ts",
+      "community": 13,
+      "norm_label": "next-env.d.ts"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "frontend/next.config.ts",
+      "source_location": "L1",
+      "id": "frontend_next_config_ts",
+      "community": 10,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "frontend/next.config.ts",
+      "source_location": "L3",
+      "id": "frontend_next_config_nextconfig",
+      "community": 10,
+      "norm_label": "nextconfig"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "frontend/postcss.config.mjs",
+      "source_location": "L1",
+      "id": "frontend_postcss_config_mjs",
+      "community": 11,
+      "norm_label": "postcss.config.mjs"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "frontend/postcss.config.mjs",
+      "source_location": "L1",
+      "id": "frontend_postcss_config_config",
+      "community": 11,
+      "norm_label": "config"
+    },
+    {
+      "label": "middleware.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/middleware.ts",
+      "source_location": "L1",
+      "id": "frontend_src_middleware_ts",
+      "community": 8,
+      "norm_label": "middleware.ts"
+    },
+    {
+      "label": "CookiesToSet",
+      "file_type": "code",
+      "source_file": "frontend/src/middleware.ts",
+      "source_location": "L6",
+      "id": "src_middleware_cookiestoset",
+      "community": 8,
+      "norm_label": "cookiestoset"
+    },
+    {
+      "label": "middleware()",
+      "file_type": "code",
+      "source_file": "frontend/src/middleware.ts",
+      "source_location": "L8",
+      "id": "src_middleware_middleware",
+      "community": 8,
+      "norm_label": "middleware()"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "frontend/src/middleware.ts",
+      "source_location": "L56",
+      "id": "src_middleware_config",
+      "community": 8,
+      "norm_label": "config"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/app/layout.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_app_layout_tsx",
+      "community": 9,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "openSans",
+      "file_type": "code",
+      "source_file": "frontend/src/app/layout.tsx",
+      "source_location": "L5",
+      "id": "app_layout_opensans",
+      "community": 9,
+      "norm_label": "opensans"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "frontend/src/app/layout.tsx",
+      "source_location": "L12",
+      "id": "app_layout_metadata",
+      "community": 9,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/layout.tsx",
+      "source_location": "L22",
+      "id": "app_layout_rootlayout",
+      "community": 9,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_app_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L11",
+      "id": "app_page_home",
+      "community": 1,
+      "norm_label": "home()"
+    },
+    {
+      "label": "BrandPanel()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L66",
+      "id": "app_page_brandpanel",
+      "community": 1,
+      "norm_label": "brandpanel()"
+    },
+    {
+      "label": "InfoTile()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L120",
+      "id": "app_page_infotile",
+      "community": 1,
+      "norm_label": "infotile()"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/layout.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_app_admin_layout_tsx",
+      "community": 1,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "AdminLayout()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/layout.tsx",
+      "source_location": "L7",
+      "id": "admin_layout_adminlayout",
+      "community": 1,
+      "norm_label": "adminlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_app_admin_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "AdminPage()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L9",
+      "id": "admin_page_adminpage",
+      "community": 1,
+      "norm_label": "adminpage()"
+    },
+    {
+      "label": "StepBadge()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L84",
+      "id": "admin_page_stepbadge",
+      "community": 1,
+      "norm_label": "stepbadge()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_app_admin_eventos_id_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "EventPage()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L13",
+      "id": "id_page_eventpage",
+      "community": 1,
+      "norm_label": "eventpage()"
+    },
+    {
+      "label": "StatCard()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L121",
+      "id": "id_page_statcard",
+      "community": 1,
+      "norm_label": "statcard()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/login/page.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_app_admin_login_page_tsx",
+      "community": 2,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "LoginPage()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/login/page.tsx",
+      "source_location": "L9",
+      "id": "login_page_loginpage",
+      "community": 2,
+      "norm_label": "loginpage()"
+    },
+    {
+      "label": "AdminShell.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_adminshell_tsx",
+      "community": 2,
+      "norm_label": "adminshell.tsx"
+    },
+    {
+      "label": "NAV",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L11",
+      "id": "components_adminshell_nav",
+      "community": 2,
+      "norm_label": "nav"
+    },
+    {
+      "label": "AdminShell()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L15",
+      "id": "components_adminshell_adminshell",
+      "community": 2,
+      "norm_label": "adminshell()"
+    },
+    {
+      "label": "Sidebar()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L77",
+      "id": "components_adminshell_sidebar",
+      "community": 2,
+      "norm_label": "sidebar()"
+    },
+    {
+      "label": "AttendanceForm.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_attendanceform_tsx",
+      "community": 3,
+      "norm_label": "attendanceform.tsx"
+    },
+    {
+      "label": "Props",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L11",
+      "id": "components_attendanceform_props",
+      "community": 3,
+      "norm_label": "props"
+    },
+    {
+      "label": "Errors",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L12",
+      "id": "components_attendanceform_errors",
+      "community": 3,
+      "norm_label": "errors"
+    },
+    {
+      "label": "describeEvent()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L16",
+      "id": "components_attendanceform_describeevent",
+      "community": 3,
+      "norm_label": "describeevent()"
+    },
+    {
+      "label": "AttendanceForm()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L19",
+      "id": "components_attendanceform_attendanceform",
+      "community": 3,
+      "norm_label": "attendanceform()"
+    },
+    {
+      "label": "messageForError()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L187",
+      "id": "components_attendanceform_messageforerror",
+      "community": 3,
+      "norm_label": "messageforerror()"
+    },
+    {
+      "label": "Field()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L203",
+      "id": "components_attendanceform_field",
+      "community": 3,
+      "norm_label": "field()"
+    },
+    {
+      "label": "AttendanceWizard.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_attendancewizard_tsx",
+      "community": 5,
+      "norm_label": "attendancewizard.tsx"
+    },
+    {
+      "label": "Step",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L12",
+      "id": "components_attendancewizard_step",
+      "community": 5,
+      "norm_label": "step"
+    },
+    {
+      "label": "Errors",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L13",
+      "id": "components_attendancewizard_errors",
+      "community": 5,
+      "norm_label": "errors"
+    },
+    {
+      "label": "eventDescription()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L18",
+      "id": "components_attendancewizard_eventdescription",
+      "community": 5,
+      "norm_label": "eventdescription()"
+    },
+    {
+      "label": "AttendanceWizard()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L21",
+      "id": "components_attendancewizard_attendancewizard",
+      "community": 5,
+      "norm_label": "attendancewizard()"
+    },
+    {
+      "label": "eventScore()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L369",
+      "id": "components_attendancewizard_eventscore",
+      "community": 5,
+      "norm_label": "eventscore()"
+    },
+    {
+      "label": "normalize()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L393",
+      "id": "components_attendancewizard_normalize",
+      "community": 5,
+      "norm_label": "normalize()"
+    },
+    {
+      "label": "editDistance()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L401",
+      "id": "components_attendancewizard_editdistance",
+      "community": 5,
+      "norm_label": "editdistance()"
+    },
+    {
+      "label": "messageForError()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L419",
+      "id": "components_attendancewizard_messageforerror",
+      "community": 5,
+      "norm_label": "messageforerror()"
+    },
+    {
+      "label": "StepIndicator()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L427",
+      "id": "components_attendancewizard_stepindicator",
+      "community": 5,
+      "norm_label": "stepindicator()"
+    },
+    {
+      "label": "StepTitle()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L454",
+      "id": "components_attendancewizard_steptitle",
+      "community": 5,
+      "norm_label": "steptitle()"
+    },
+    {
+      "label": "EventSummary()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L463",
+      "id": "components_attendancewizard_eventsummary",
+      "community": 5,
+      "norm_label": "eventsummary()"
+    },
+    {
+      "label": "Field()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L479",
+      "id": "components_attendancewizard_field",
+      "community": 5,
+      "norm_label": "field()"
+    },
+    {
+      "label": "AttendeeTable.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_attendeetable_tsx",
+      "community": 3,
+      "norm_label": "attendeetable.tsx"
+    },
+    {
+      "label": "AttendeeTable()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L12",
+      "id": "components_attendeetable_attendeetable",
+      "community": 3,
+      "norm_label": "attendeetable()"
+    },
+    {
+      "label": "Avatar()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L160",
+      "id": "components_attendeetable_avatar",
+      "community": 3,
+      "norm_label": "avatar()"
+    },
+    {
+      "label": "EmptyState()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L177",
+      "id": "components_attendeetable_emptystate",
+      "community": 3,
+      "norm_label": "emptystate()"
+    },
+    {
+      "label": "Th()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L189",
+      "id": "components_attendeetable_th",
+      "community": 3,
+      "norm_label": "th()"
+    },
+    {
+      "label": "Td()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L195",
+      "id": "components_attendeetable_td",
+      "community": 3,
+      "norm_label": "td()"
+    },
+    {
+      "label": "BrandLogo.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/BrandLogo.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_brandlogo_tsx",
+      "community": 2,
+      "norm_label": "brandlogo.tsx"
+    },
+    {
+      "label": "BrandLogo()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/BrandLogo.tsx",
+      "source_location": "L3",
+      "id": "components_brandlogo_brandlogo",
+      "community": 2,
+      "norm_label": "brandlogo()"
+    },
+    {
+      "label": "EditEventDialog.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/EditEventDialog.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_editeventdialog_tsx",
+      "community": 1,
+      "norm_label": "editeventdialog.tsx"
+    },
+    {
+      "label": "EditEventDialog()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/EditEventDialog.tsx",
+      "source_location": "L9",
+      "id": "components_editeventdialog_editeventdialog",
+      "community": 1,
+      "norm_label": "editeventdialog()"
+    },
+    {
+      "label": "EventCard.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_eventcard_tsx",
+      "community": 1,
+      "norm_label": "eventcard.tsx"
+    },
+    {
+      "label": "EventCard()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L12",
+      "id": "components_eventcard_eventcard",
+      "community": 1,
+      "norm_label": "eventcard()"
+    },
+    {
+      "label": "StatusBadge()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L167",
+      "id": "components_eventcard_statusbadge",
+      "community": 1,
+      "norm_label": "statusbadge()"
+    },
+    {
+      "label": "EventForm.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/EventForm.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_eventform_tsx",
+      "community": 2,
+      "norm_label": "eventform.tsx"
+    },
+    {
+      "label": "EventForm()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/EventForm.tsx",
+      "source_location": "L10",
+      "id": "components_eventform_eventform",
+      "community": 2,
+      "norm_label": "eventform()"
+    },
+    {
+      "label": "Stepper()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/EventForm.tsx",
+      "source_location": "L164",
+      "id": "components_eventform_stepper",
+      "community": 2,
+      "norm_label": "stepper()"
+    },
+    {
+      "label": "Icon.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Icon.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_icon_tsx",
+      "community": 1,
+      "norm_label": "icon.tsx"
+    },
+    {
+      "label": "Icon()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Icon.tsx",
+      "source_location": "L5",
+      "id": "components_icon_icon",
+      "community": 1,
+      "norm_label": "icon()"
+    },
+    {
+      "label": "LogoutButton.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/LogoutButton.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_logoutbutton_tsx",
+      "community": 2,
+      "norm_label": "logoutbutton.tsx"
+    },
+    {
+      "label": "LogoutButton()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/LogoutButton.tsx",
+      "source_location": "L8",
+      "id": "components_logoutbutton_logoutbutton",
+      "community": 2,
+      "norm_label": "logoutbutton()"
+    },
+    {
+      "label": "ReportButton.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ReportButton.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_reportbutton_tsx",
+      "community": 2,
+      "norm_label": "reportbutton.tsx"
+    },
+    {
+      "label": "ReportButton()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ReportButton.tsx",
+      "source_location": "L9",
+      "id": "components_reportbutton_reportbutton",
+      "community": 2,
+      "norm_label": "reportbutton()"
+    },
+    {
+      "label": "SignaturePad.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SignaturePad.tsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_signaturepad_tsx",
+      "community": 5,
+      "norm_label": "signaturepad.tsx"
+    },
+    {
+      "label": "Props",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SignaturePad.tsx",
+      "source_location": "L6",
+      "id": "components_signaturepad_props",
+      "community": 5,
+      "norm_label": "props"
+    },
+    {
+      "label": "SignaturePad()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SignaturePad.tsx",
+      "source_location": "L15",
+      "id": "components_signaturepad_signaturepad",
+      "community": 5,
+      "norm_label": "signaturepad()"
+    },
+    {
+      "label": "api.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L1",
+      "id": "frontend_src_lib_api_ts",
+      "community": 2,
+      "norm_label": "api.ts"
+    },
+    {
+      "label": "ReportError",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L6",
+      "id": "lib_api_reporterror",
+      "community": 2,
+      "norm_label": "reporterror"
+    },
+    {
+      "label": "downloadAttendanceReport()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L15",
+      "id": "lib_api_downloadattendancereport",
+      "community": 2,
+      "norm_label": "downloadattendancereport()"
+    },
+    {
+      "label": "filenameFrom()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L79",
+      "id": "lib_api_filenamefrom",
+      "community": 2,
+      "norm_label": "filenamefrom()"
+    },
+    {
+      "label": "cpf.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L1",
+      "id": "frontend_src_lib_cpf_ts",
+      "community": 3,
+      "norm_label": "cpf.ts"
+    },
+    {
+      "label": "unmaskCpf()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L6",
+      "id": "lib_cpf_unmaskcpf",
+      "community": 3,
+      "norm_label": "unmaskcpf()"
+    },
+    {
+      "label": "maskCpf()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L8",
+      "id": "lib_cpf_maskcpf",
+      "community": 3,
+      "norm_label": "maskcpf()"
+    },
+    {
+      "label": "isValidCpf()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L16",
+      "id": "lib_cpf_isvalidcpf",
+      "community": 3,
+      "norm_label": "isvalidcpf()"
+    },
+    {
+      "label": "datetime.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/datetime.ts",
+      "source_location": "L1",
+      "id": "frontend_src_lib_datetime_ts",
+      "community": 1,
+      "norm_label": "datetime.ts"
+    },
+    {
+      "label": "formatEventDate()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/datetime.ts",
+      "source_location": "L19",
+      "id": "lib_datetime_formateventdate",
+      "community": 1,
+      "norm_label": "formateventdate()"
+    },
+    {
+      "label": "phone.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L1",
+      "id": "frontend_src_lib_phone_ts",
+      "community": 3,
+      "norm_label": "phone.ts"
+    },
+    {
+      "label": "unmaskPhone()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L1",
+      "id": "lib_phone_unmaskphone",
+      "community": 3,
+      "norm_label": "unmaskphone()"
+    },
+    {
+      "label": "maskPhone()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L4",
+      "id": "lib_phone_maskphone",
+      "community": 3,
+      "norm_label": "maskphone()"
+    },
+    {
+      "label": "isValidPhone()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L12",
+      "id": "lib_phone_isvalidphone",
+      "community": 3,
+      "norm_label": "isvalidphone()"
+    },
+    {
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L1",
+      "id": "frontend_src_lib_types_ts",
+      "community": 1,
+      "norm_label": "types.ts"
+    },
+    {
+      "label": "EventRow",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L1",
+      "id": "lib_types_eventrow",
+      "community": 1,
+      "norm_label": "eventrow"
+    },
+    {
+      "label": "PublicEvent",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L13",
+      "id": "lib_types_publicevent",
+      "community": 1,
+      "norm_label": "publicevent"
+    },
+    {
+      "label": "EventWithCount",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L15",
+      "id": "lib_types_eventwithcount",
+      "community": 1,
+      "norm_label": "eventwithcount"
+    },
+    {
+      "label": "AttendeeRow",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L19",
+      "id": "lib_types_attendeerow",
+      "community": 1,
+      "norm_label": "attendeerow"
+    },
+    {
+      "label": "client.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/supabase/client.ts",
+      "source_location": "L1",
+      "id": "frontend_src_lib_supabase_client_ts",
+      "community": 2,
+      "norm_label": "client.ts"
+    },
+    {
+      "label": "createClient()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/supabase/client.ts",
+      "source_location": "L3",
+      "id": "supabase_client_createclient",
+      "community": 2,
+      "norm_label": "createclient()"
+    },
+    {
+      "label": "server.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/supabase/server.ts",
+      "source_location": "L1",
+      "id": "frontend_src_lib_supabase_server_ts",
+      "community": 1,
+      "norm_label": "server.ts"
+    },
+    {
+      "label": "CookiesToSet",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/supabase/server.ts",
+      "source_location": "L6",
+      "id": "supabase_server_cookiestoset",
+      "community": 1,
+      "norm_label": "cookiestoset"
+    },
+    {
+      "label": "createClient()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/supabase/server.ts",
+      "source_location": "L8",
+      "id": "supabase_server_createclient",
+      "community": 1,
+      "norm_label": "createclient()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "presencaApp",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "presencaapp_readme_presencaapp",
+      "community": 4,
+      "norm_label": "presencaapp"
+    },
+    {
+      "label": "1. Banco de dados (Supabase)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "id": "presencaapp_readme_1_banco_de_dados_supabase",
+      "community": 4,
+      "norm_label": "1. banco de dados (supabase)"
+    },
+    {
+      "label": "code:sql (select public.is_valid_cpf('529.982.247-25');  -- true)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "id": "presencaapp_readme_codeblock_1",
+      "community": 4,
+      "norm_label": "code:sql (select public.is_valid_cpf('529.982.247-25');  -- true)"
+    },
+    {
+      "label": "code:sql (insert into public.admins (user_id, email))",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "id": "presencaapp_readme_codeblock_2",
+      "community": 4,
+      "norm_label": "code:sql (insert into public.admins (user_id, email))"
+    },
+    {
+      "label": "Limite de participantes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "id": "presencaapp_readme_limite_de_participantes",
+      "community": 4,
+      "norm_label": "limite de participantes"
+    },
+    {
+      "label": "2. Backend (local, via Docker)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "id": "presencaapp_readme_2_backend_local_via_docker",
+      "community": 4,
+      "norm_label": "2. backend (local, via docker)"
+    },
+    {
+      "label": "code:bash (cp backend/.env.example backend/.env   # preencha SUPABASE_U)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "id": "presencaapp_readme_codeblock_3",
+      "community": 4,
+      "norm_label": "code:bash (cp backend/.env.example backend/.env   # preencha supabase_u)"
+    },
+    {
+      "label": "3. Frontend (local)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "id": "presencaapp_readme_3_frontend_local",
+      "community": 4,
+      "norm_label": "3. frontend (local)"
+    },
+    {
+      "label": "code:bash (cp frontend/.env.local.example frontend/.env.local   # preen)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "id": "presencaapp_readme_codeblock_4",
+      "community": 4,
+      "norm_label": "code:bash (cp frontend/.env.local.example frontend/.env.local   # preen)"
+    },
+    {
+      "label": "code:bash (cp .env.example .env    # as NEXT_PUBLIC_* s\u00e3o build args do)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L85",
+      "id": "presencaapp_readme_codeblock_5",
+      "community": 4,
+      "norm_label": "code:bash (cp .env.example .env    # as next_public_* sao build args do)"
+    },
+    {
+      "label": "4. Deploy",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L90",
+      "id": "presencaapp_readme_4_deploy",
+      "community": 4,
+      "norm_label": "4. deploy"
+    },
+    {
+      "label": "Vercel (frontend)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L92",
+      "id": "presencaapp_readme_vercel_frontend",
+      "community": 4,
+      "norm_label": "vercel (frontend)"
+    },
+    {
+      "label": "Render (backend)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L102",
+      "id": "presencaapp_readme_render_backend",
+      "community": 4,
+      "norm_label": "render (backend)"
+    },
+    {
+      "label": "5. Uso",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L126",
+      "id": "presencaapp_readme_5_uso",
+      "community": 4,
+      "norm_label": "5. uso"
+    },
+    {
+      "label": "Fuso hor\u00e1rio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "id": "presencaapp_readme_fuso_hor_rio",
+      "community": 4,
+      "norm_label": "fuso horario"
+    },
+    {
+      "label": "Estrutura",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L148",
+      "id": "presencaapp_readme_estrutura",
+      "community": 4,
+      "norm_label": "estrutura"
+    },
+    {
+      "label": "code:block6 (presencaApp/)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L150",
+      "id": "presencaapp_readme_codeblock_6",
+      "community": 4,
+      "norm_label": "code:block6 (presencaapp/)"
+    },
+    {
+      "label": "inicio.md",
+      "file_type": "document",
+      "source_file": "plano/inicio.md",
+      "source_location": "L1",
+      "id": "plano_inicio_md",
+      "community": 14,
+      "norm_label": "inicio.md"
+    },
+    {
+      "label": "resume.md",
+      "file_type": "document",
+      "source_file": "plano/resume.md",
+      "source_location": "L1",
+      "id": "plano_resume_md",
+      "community": 15,
+      "norm_label": "resume.md"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "supabase/migrations/README.md",
+      "source_location": "L1",
+      "id": "supabase_migrations_readme_md",
+      "community": 12,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Migrations incrementais",
+      "file_type": "document",
+      "source_file": "supabase/migrations/README.md",
+      "source_location": "L1",
+      "id": "migrations_readme_migrations_incrementais",
+      "community": 12,
+      "norm_label": "migrations incrementais"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_env_ts",
+      "target": "src_env_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "backend_src_env_ts",
+      "target": "src_env_parsed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "backend_src_env_ts",
+      "target": "src_env_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/env.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "backend_src_env_ts",
+      "target": "src_env_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_index_ts",
+      "target": "backend_src_env_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/middleware/auth.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_middleware_auth_ts",
+      "target": "backend_src_env_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_index_ts",
+      "target": "src_env_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/middleware/auth.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_middleware_auth_ts",
+      "target": "src_env_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/index.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "backend_src_index_ts",
+      "target": "backend_src_routes_reports_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/index.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_src_index_ts",
+      "target": "src_index_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/index.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_src_index_ts",
+      "target": "src_index_origin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/lib/datetime.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "backend_src_lib_datetime_ts",
+      "target": "lib_datetime_formatdatetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/lib/datetime.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_src_lib_datetime_ts",
+      "target": "lib_datetime_formatdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/lib/datetime.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "backend_src_lib_datetime_ts",
+      "target": "lib_datetime_formatdateonly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/lib/datetime.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "backend_src_lib_datetime_ts",
+      "target": "lib_datetime_todayisointz",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "backend_src_lib_datetime_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "backend_src_lib_datetime_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "lib_datetime_formatdatetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "lib_datetime_formatdatetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/datetime.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_lib_datetime_ts",
+      "target": "lib_datetime_formatdatetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/datetime.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_lib_datetime_ts",
+      "target": "lib_datetime_formatdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "lib_datetime_formatdateonly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_drawreportheader",
+      "target": "lib_datetime_formatdateonly"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "lib_datetime_todayisointz",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "backend_src_lib_format_ts",
+      "target": "lib_format_maskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "backend_src_lib_format_ts",
+      "target": "lib_format_maskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "backend_src_lib_format_ts",
+      "target": "lib_format_combining_marks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/lib/format.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "backend_src_lib_format_ts",
+      "target": "lib_format_slugify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "backend_src_lib_format_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "backend_src_lib_format_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "lib_format_maskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "lib_format_maskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "lib_format_slugify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/middleware/auth.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "backend_src_middleware_auth_ts",
+      "target": "middleware_auth_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/middleware/auth.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "backend_src_middleware_auth_ts",
+      "target": "middleware_auth_requireauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "backend_src_middleware_auth_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "middleware_auth_requireauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_eventrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_attendeerow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_doc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_col",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_widths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_colx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_fitfontsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_hline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_vlines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_drawreportheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_drawtableheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_drawparticipant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_drawsignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_drawrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_drawfooters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "backend_src_pdf_attendancereport_ts",
+      "target": "pdf_attendancereport_buildattendancereport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "backend_src_pdf_attendancereport_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "pdf_attendancereport_eventrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "pdf_attendancereport_attendeerow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_drawparticipant",
+      "target": "pdf_attendancereport_fitfontsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_drawtableheader",
+      "target": "pdf_attendancereport_hline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_drawrow",
+      "target": "pdf_attendancereport_hline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_drawtableheader",
+      "target": "pdf_attendancereport_vlines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_drawrow",
+      "target": "pdf_attendancereport_vlines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_buildattendancereport",
+      "target": "pdf_attendancereport_drawreportheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_buildattendancereport",
+      "target": "pdf_attendancereport_drawtableheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_drawrow",
+      "target": "pdf_attendancereport_drawparticipant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_drawrow",
+      "target": "pdf_attendancereport_drawsignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/pdf/attendanceReport.ts",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "pdf_attendancereport_buildattendancereport",
+      "target": "pdf_attendancereport_drawfooters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "pdf_attendancereport_buildattendancereport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "routes_reports_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "routes_reports_paramsschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "routes_reports_parsed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "routes_reports_data_event_error_eventerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "routes_reports_data_attendees_count_error_attendeeserror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/reports.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "backend_src_routes_reports_ts",
+      "target": "routes_reports_doc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_eslint_config_mjs",
+      "target": "frontend_eslint_config_filename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_eslint_config_mjs",
+      "target": "frontend_eslint_config_dirname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_eslint_config_mjs",
+      "target": "frontend_eslint_config_compat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/eslint.config.mjs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_eslint_config_mjs",
+      "target": "frontend_eslint_config_eslintconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/next.config.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_next_config_ts",
+      "target": "frontend_next_config_nextconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_postcss_config_mjs",
+      "target": "frontend_postcss_config_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/middleware.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_middleware_ts",
+      "target": "src_middleware_cookiestoset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/middleware.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_middleware_ts",
+      "target": "src_middleware_middleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/middleware.ts",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "frontend_src_middleware_ts",
+      "target": "src_middleware_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_layout_tsx",
+      "target": "app_layout_opensans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/layout.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_app_layout_tsx",
+      "target": "app_layout_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/layout.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "frontend_src_app_layout_tsx",
+      "target": "app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "frontend_src_components_attendancewizard_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "frontend_src_components_brandlogo_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "frontend_src_lib_supabase_server_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "supabase_server_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "frontend_src_lib_datetime_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "lib_datetime_formateventdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "frontend_src_lib_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "lib_types_publicevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "app_page_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "app_page_brandpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "frontend_src_app_page_tsx",
+      "target": "app_page_infotile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/app/page.tsx",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "app_page_brandpanel",
+      "target": "lib_datetime_formateventdate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_layout_tsx",
+      "target": "frontend_src_components_adminshell_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_layout_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_layout_tsx",
+      "target": "frontend_src_lib_supabase_server_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_layout_tsx",
+      "target": "supabase_server_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_layout_tsx",
+      "target": "admin_layout_adminlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "frontend_src_components_eventcard_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "frontend_src_components_eventform_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "frontend_src_lib_supabase_server_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "supabase_server_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "frontend_src_lib_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "lib_types_eventwithcount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "admin_page_adminpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/page.tsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_page_tsx",
+      "target": "admin_page_stepbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "frontend_src_components_eventcard_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "components_eventcard_statusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "frontend_src_components_attendeetable_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "frontend_src_components_reportbutton_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "frontend_src_lib_supabase_server_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "supabase_server_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "frontend_src_lib_datetime_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "lib_datetime_formateventdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "frontend_src_lib_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "lib_types_attendeerow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "lib_types_eventrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "id_page_eventpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_eventos_id_page_tsx",
+      "target": "id_page_statcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/app/admin/eventos/[id]/page.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "id_page_eventpage",
+      "target": "lib_datetime_formateventdate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/login/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_login_page_tsx",
+      "target": "frontend_src_components_brandlogo_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/login/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_login_page_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/login/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_login_page_tsx",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/login/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_login_page_tsx",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/login/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_app_admin_login_page_tsx",
+      "target": "login_page_loginpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_adminshell_tsx",
+      "target": "frontend_src_components_brandlogo_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_adminshell_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_adminshell_tsx",
+      "target": "frontend_src_components_logoutbutton_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_components_adminshell_tsx",
+      "target": "components_adminshell_nav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_src_components_adminshell_tsx",
+      "target": "components_adminshell_adminshell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminShell.tsx",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "frontend_src_components_adminshell_tsx",
+      "target": "components_adminshell_sidebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "frontend_src_lib_cpf_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "lib_cpf_isvalidcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "lib_cpf_maskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "lib_cpf_unmaskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "frontend_src_lib_phone_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "lib_phone_isvalidphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "lib_phone_maskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "lib_phone_unmaskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "frontend_src_lib_datetime_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "lib_datetime_formateventdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "frontend_src_lib_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "lib_types_publicevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "components_attendanceform_props",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "components_attendanceform_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "components_attendanceform_describeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "components_attendanceform_attendanceform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "components_attendanceform_messageforerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendanceform_tsx",
+      "target": "components_attendanceform_field",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/AttendanceForm.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "components_attendanceform_describeevent",
+      "target": "lib_datetime_formateventdate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "frontend_src_components_signaturepad_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "frontend_src_lib_cpf_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "lib_cpf_isvalidcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "lib_cpf_maskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "lib_cpf_unmaskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "frontend_src_lib_phone_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "lib_phone_isvalidphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "lib_phone_maskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "lib_phone_unmaskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "frontend_src_lib_datetime_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "lib_datetime_formateventdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "frontend_src_lib_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "lib_types_publicevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_step",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_eventdescription",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_attendancewizard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L369",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_eventscore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L393",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_normalize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L401",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_editdistance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L419",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_messageforerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L427",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_stepindicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L454",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_steptitle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L463",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_eventsummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L479",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendancewizard_tsx",
+      "target": "components_attendancewizard_field",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "components_attendancewizard_attendancewizard",
+      "target": "components_attendancewizard_eventdescription",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L373",
+      "weight": 1.0,
+      "source": "components_attendancewizard_eventscore",
+      "target": "components_attendancewizard_eventdescription",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "components_attendancewizard_eventdescription",
+      "target": "lib_datetime_formateventdate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L371",
+      "weight": 1.0,
+      "source": "components_attendancewizard_eventscore",
+      "target": "components_attendancewizard_normalize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/AttendanceWizard.tsx",
+      "source_location": "L472",
+      "weight": 1.0,
+      "source": "components_attendancewizard_eventsummary",
+      "target": "lib_datetime_formateventdate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "frontend_src_lib_cpf_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "lib_cpf_maskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "frontend_src_lib_phone_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "lib_phone_maskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "frontend_src_lib_datetime_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "frontend_src_lib_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "lib_types_attendeerow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "components_attendeetable_attendeetable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "components_attendeetable_avatar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "components_attendeetable_emptystate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "components_attendeetable_th",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AttendeeTable.tsx",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "frontend_src_components_attendeetable_tsx",
+      "target": "components_attendeetable_td",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/BrandLogo.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_brandlogo_tsx",
+      "target": "components_brandlogo_brandlogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EditEventDialog.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_editeventdialog_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EditEventDialog.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_editeventdialog_tsx",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EditEventDialog.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_editeventdialog_tsx",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EditEventDialog.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_editeventdialog_tsx",
+      "target": "frontend_src_lib_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EditEventDialog.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_editeventdialog_tsx",
+      "target": "lib_types_eventrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EditEventDialog.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_editeventdialog_tsx",
+      "target": "components_editeventdialog_editeventdialog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "frontend_src_components_editeventdialog_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "frontend_src_lib_datetime_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "lib_datetime_formateventdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "frontend_src_lib_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "lib_types_eventwithcount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "components_eventcard_eventcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventcard_tsx",
+      "target": "components_eventcard_statusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/EventCard.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "components_eventcard_eventcard",
+      "target": "lib_datetime_formateventdate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventform_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventform_tsx",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventform_tsx",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventform_tsx",
+      "target": "components_eventform_eventform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/EventForm.tsx",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "frontend_src_components_eventform_tsx",
+      "target": "components_eventform_stepper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Icon.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_icon_tsx",
+      "target": "components_icon_icon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/LogoutButton.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_logoutbutton_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReportButton.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_reportbutton_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SignaturePad.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_signaturepad_tsx",
+      "target": "frontend_src_components_icon_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/LogoutButton.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_logoutbutton_tsx",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/LogoutButton.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_logoutbutton_tsx",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/LogoutButton.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_logoutbutton_tsx",
+      "target": "components_logoutbutton_logoutbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReportButton.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_reportbutton_tsx",
+      "target": "frontend_src_lib_api_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReportButton.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_reportbutton_tsx",
+      "target": "lib_api_downloadattendancereport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReportButton.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_reportbutton_tsx",
+      "target": "lib_api_reporterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReportButton.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_reportbutton_tsx",
+      "target": "components_reportbutton_reportbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SignaturePad.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_signaturepad_tsx",
+      "target": "components_signaturepad_props",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SignaturePad.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_src_components_signaturepad_tsx",
+      "target": "components_signaturepad_signaturepad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_lib_api_ts",
+      "target": "frontend_src_lib_supabase_client_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_lib_api_ts",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_lib_api_ts",
+      "target": "lib_api_reporterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_src_lib_api_ts",
+      "target": "lib_api_downloadattendancereport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "frontend_src_lib_api_ts",
+      "target": "lib_api_filenamefrom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/api.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "lib_api_downloadattendancereport",
+      "target": "lib_api_filenamefrom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_lib_cpf_ts",
+      "target": "lib_cpf_unmaskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_lib_cpf_ts",
+      "target": "lib_cpf_maskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_src_lib_cpf_ts",
+      "target": "lib_cpf_isvalidcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "lib_cpf_maskcpf",
+      "target": "lib_cpf_unmaskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/cpf.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "lib_cpf_isvalidcpf",
+      "target": "lib_cpf_unmaskcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/datetime.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "frontend_src_lib_datetime_ts",
+      "target": "lib_datetime_formateventdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_lib_phone_ts",
+      "target": "lib_phone_unmaskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_lib_phone_ts",
+      "target": "lib_phone_maskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_lib_phone_ts",
+      "target": "lib_phone_isvalidphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "lib_phone_maskphone",
+      "target": "lib_phone_unmaskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/phone.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "lib_phone_isvalidphone",
+      "target": "lib_phone_unmaskphone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_lib_types_ts",
+      "target": "lib_types_eventrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_src_lib_types_ts",
+      "target": "lib_types_publicevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_src_lib_types_ts",
+      "target": "lib_types_eventwithcount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/types.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "frontend_src_lib_types_ts",
+      "target": "lib_types_attendeerow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/supabase/client.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_lib_supabase_client_ts",
+      "target": "supabase_client_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/supabase/server.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_lib_supabase_server_ts",
+      "target": "supabase_server_cookiestoset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/supabase/server.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_lib_supabase_server_ts",
+      "target": "supabase_server_createclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "presencaapp_readme_presencaapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "presencaapp_readme_presencaapp",
+      "target": "presencaapp_readme_1_banco_de_dados_supabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "presencaapp_readme_presencaapp",
+      "target": "presencaapp_readme_2_backend_local_via_docker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "presencaapp_readme_presencaapp",
+      "target": "presencaapp_readme_3_frontend_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "presencaapp_readme_presencaapp",
+      "target": "presencaapp_readme_4_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "presencaapp_readme_presencaapp",
+      "target": "presencaapp_readme_5_uso",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "presencaapp_readme_presencaapp",
+      "target": "presencaapp_readme_fuso_hor_rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "presencaapp_readme_presencaapp",
+      "target": "presencaapp_readme_estrutura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "presencaapp_readme_1_banco_de_dados_supabase",
+      "target": "presencaapp_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "presencaapp_readme_1_banco_de_dados_supabase",
+      "target": "presencaapp_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "presencaapp_readme_1_banco_de_dados_supabase",
+      "target": "presencaapp_readme_limite_de_participantes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "presencaapp_readme_2_backend_local_via_docker",
+      "target": "presencaapp_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "presencaapp_readme_3_frontend_local",
+      "target": "presencaapp_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "presencaapp_readme_3_frontend_local",
+      "target": "presencaapp_readme_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "presencaapp_readme_4_deploy",
+      "target": "presencaapp_readme_vercel_frontend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "presencaapp_readme_4_deploy",
+      "target": "presencaapp_readme_render_backend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "presencaapp_readme_estrutura",
+      "target": "presencaapp_readme_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "supabase/migrations/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "supabase_migrations_readme_md",
+      "target": "migrations_readme_migrations_incrementais",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "8a6a03e37630c354ddb94a874b9809ba6e2abaf4"
+}
