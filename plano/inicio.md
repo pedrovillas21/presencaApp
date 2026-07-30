@@ -1,4 +1,9 @@
 Plano — presencaApp: registro de presença em eventos
+
+> **Documento histórico.** A implementação Node/Express/PDFKit descrita abaixo
+> foi substituída pelo backend PHP 8.2 + Apache + Dompdf em 30/07/2026.
+> Consulte o `README.md` e o diretório `backend/` para a arquitetura vigente.
+
 Context
 O diretório presencaApp está vazio; é um projeto do zero. Node 22.14, npm 10.9 e Docker 29.5 já estão instalados na máquina.
 

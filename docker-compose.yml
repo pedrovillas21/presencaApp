@@ -1,12 +1,89 @@
 services:
-  backend:
-    build: ./backend
+  db:
+    image: mysql:8.0
+    container_name: presenca_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_secret_password
+      MYSQL_DATABASE: presenca_app
+      MYSQL_USER: presenca_user
+      MYSQL_PASSWORD: presenca_password
+      TZ: America/Sao_Paulo
     ports:
-      - "8080:8080"
+      # 3307 no host porque a 3306 costuma estar tomada por um MySQL instalado
+      # nativamente. Só afeta quem conecta de fora (Workbench, DBeaver): dentro
+      # da rede do compose o backend continua falando com `db:3306`.
+      #
+      # Preso ao 127.0.0.1: publicar em 0.0.0.0 deixaria o MySQL acessível a
+      # qualquer máquina que alcance o host — em produção, à internet. O backend
+      # não usa esta porta; ela existe só para ferramentas locais. Em produção o
+      # ideal é remover o bloco `ports` inteiro e acessar o banco por túnel SSH.
+      - "127.0.0.1:3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    # `-h 127.0.0.1` força TCP de propósito: durante a primeira inicialização o
+    # MySQL sobe um servidor temporário que só escuta no socket Unix enquanto
+    # roda o schema.sql. Pingar por socket daria "pronto" cedo demais, com as
+    # tabelas ainda sendo criadas.
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-u", "presenca_user", "-ppresenca_password", "--silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+      start_period: 20s
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      args:
+        APP_ENV: dev
+    ports:
+      - "8080:80"
     env_file:
       - ./backend/.env
     environment:
+      APP_ENV: dev
+      PORT: "80"
       TZ: America/Sao_Paulo
+      DB_HOST: db
+      DB_PORT: "3306"
+      DB_DATABASE: presenca_app
+      DB_USERNAME: presenca_user
+      DB_PASSWORD: presenca_password
+      JWT_SECRET: presenca_app_jwt_super_secret_key_2026_change_in_prod
+    # Espera o banco aceitar conexão. Sem isto o Apache sobe em segundos e as
+    # primeiras requisições devolvem 500 enquanto o MySQL ainda inicializa.
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Ferramenta de desenvolvimento — NÃO vai para produção.
+  # Fica atrás do profile "tools", então o `docker compose up -d` normal (o que
+  # roda no deploy) ignora este serviço. Para usá-lo localmente:
+  #
+  #   docker compose --profile tools up -d
+  #
+  # Depois acesse http://localhost:8081 e entre com presenca_user /
+  # presenca_password (ou root / root_secret_password para criar e dropar bancos).
+  phpmyadmin:
+    image: phpmyadmin:5
+    container_name: presenca_phpmyadmin
+    profiles: ["tools"]
+    environment:
+      PMA_HOST: db
+      PMA_PORT: "3306"
+      # Folga para importar CSV/SQL; o padrão da imagem é 2M.
+      UPLOAD_LIMIT: 64M
+      TZ: America/Sao_Paulo
+    ports:
+      # Preso ao 127.0.0.1: sem isso o Docker publica em 0.0.0.0 e qualquer
+      # máquina da rede alcança o banco inteiro por aqui, com dados pessoais.
+      - "127.0.0.1:8081:80"
+    depends_on:
+      db:
+        condition: service_healthy
     restart: unless-stopped
 
   # Fora do `docker compose up` padrão.
@@ -17,8 +94,11 @@ services:
     build:
       context: ./frontend
       args:
-        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
-        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+        # Default vazio só para não poluir todo `docker compose` com aviso de
+        # variável indefinida. Somem quando a migração do frontend terminar —
+        # veja plano/migracao_frontend.md, §6.
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL:-}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY:-}
         NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8080}
     profiles: ["fullstack"]
     ports:
@@ -28,3 +108,6 @@ services:
     depends_on:
       - backend
     restart: unless-stopped
+
+volumes:
+  mysql_data:
