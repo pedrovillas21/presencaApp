@@ -5,7 +5,7 @@ evento aberto e preenche seus dados; o admin gerencia os eventos e gera o PDF da
 lista de presença com coluna em branco para assinatura física.
 
 - **frontend** — Next.js 15 (App Router, TypeScript, Tailwind v4) → Vercel
-- **backend** — PHP 8.2 + Dompdf, em Docker → Render/Railway
+- **backend** — Node 22 + Express 5 + PDFKit, em Docker → Render/Railway
 - **banco** — Supabase (Postgres + Auth + RLS)
 
 O formulário público e as leituras do dashboard falam **direto com o Supabase**
@@ -71,19 +71,7 @@ docker compose up --build
 curl http://localhost:8080/health      # {"status":"ok"}
 ```
 
-Sem Docker, com PHP 8.2 e Composer instalados:
-
-```bash
-cd backend
-composer install
-composer serve
-```
-
-Para executar a validação completa do backend: `composer check`.
-
-O container usa Apache na porta interna `80`; o Compose publica essa porta como
-`8080` no host. A variável `PORT` é sobrescrita pelo Compose para evitar que um
-valor antigo em `backend/.env` altere a porta interna.
+Sem Docker: `cd backend && npm install && npm run dev`.
 
 ## 3. Frontend (local)
 
@@ -100,31 +88,6 @@ docker compose --profile fullstack up --build
 ```
 
 ## 4. Deploy
-
-### Infraestrutura Crefito (Docker + Traefik)
-
-O arquivo `docker-compose-prod.yml` segue o padrão da rede externa
-`CrefitoNet`, com TLS pelo resolver `letsencryptresolver` e bloqueio de
-indexação por `X-Robots-Tag`.
-
-No `.env` da raiz, configure:
-
-```dotenv
-APP_ENV=homolog
-APP_HOST=hmpresenca.crefito11.gov.br
-BACKEND_HOST_PORT=8080
-```
-
-As credenciais do Supabase e `ALLOWED_ORIGINS` continuam em `backend/.env`.
-Confirme o hostname de homologação antes do deploy e execute:
-
-```bash
-docker compose -f docker-compose-prod.yml up -d --build
-```
-
-O código não é montado como volume em produção: isso preserva o diretório
-`vendor/` criado durante o build e garante que o container execute exatamente
-o artefato validado.
 
 ### Vercel (frontend)
 
@@ -174,8 +137,8 @@ servidor enquanto o admin confere a lista.
 `created_at` é `timestamptz`, o Postgres devolve em UTC e o container roda em
 UTC. Formatar sem fuso explícito faria um check-in das 21h de Brasília aparecer
 como 00h do dia seguinte — erro que invalida a lista como documento. Toda
-formatação passa por `frontend/src/lib/datetime.ts` e
-`backend/src/Support/Format.php`, sempre com `America/Sao_Paulo` explícito.
+formatação passa por `lib/datetime.ts` (frontend e backend) com
+`timeZone: 'America/Sao_Paulo'` fixo.
 
 `events.event_date` é `date` puro e tem função própria (`formatEventDate` /
 `formatDateOnly`): passar `'2026-07-23'` para `new Date()` daria meia-noite UTC
@@ -191,9 +154,7 @@ presencaApp/
 ├─ frontend/                    ← Next.js 15 → Vercel
 │  ├─ middleware.ts             ← refresh de sessão + guard /admin/*
 │  └─ src/{app,components,lib}
-└─ backend/                     ← PHP 8.2 + Dompdf → Docker/Render
+└─ backend/                     ← Express 5 + PDFKit → Docker/Render
    ├─ Dockerfile                ← o mesmo para local e produção
-   ├─ public/                   ← front controller e roteador HTTP
-   ├─ src/{pdf,Supabase,Support}
-   └─ tests/                    ← testes de contrato e geração do PDF
+   └─ src/{middleware,routes,pdf,lib}
 ```

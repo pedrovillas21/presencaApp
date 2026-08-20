@@ -1,7 +1,3 @@
-> **Registro histórico anterior à migração.** As referências a
-> Node/Express/PDFKit abaixo descrevem a implementação substituída pelo backend
-> PHP 8.2 + Apache + Dompdf em 30/07/2026.
-
 O que verifiquei de fato
 Verificação	Resultado
 tsc --noEmit backend e frontend	limpo
